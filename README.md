@@ -69,11 +69,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-*Python
-*ELK
-*Flask
-*Pycharm
-*logstash deps
+* Python
+* ELK
+* Flask
+* Pycharm
+* logstash deps
 
 ### Installation
 
@@ -81,13 +81,11 @@ To get a local copy up and running follow these simple example steps.
 1. Start by downloading and installing python, Flask and ELK
 * Have a running instance of ELK
 * After installing python, install flask using pip
-   ```pip install flask
-   ```
+   ```pip install flask```
 2. Install logstash and logstash python async
 * Install JDK and logstash 
-*then:
-```pip install python-logstash-async
-   ```
+* then:
+```pip install python-logstash-async ```
 3. Install Pycharm IDE for python project
 * Follow this link https://www.jetbrains.com/fr-fr/pycharm/download/#section=windows
 
@@ -95,16 +93,17 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
-Open the project in pycharm 
-
+1. Start by opening the project in pycharm and running it 
+2. The project will open in localhost:5601
+3. The first interface is the index page which contains both options:
+* ADD A NEW CV
+* SEARCH CVs 
+![Screenshot](screenshot.png)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
