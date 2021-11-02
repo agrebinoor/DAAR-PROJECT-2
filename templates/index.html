@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+        <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+<table border="1">
+
+<form action="{{ url_for("addcv")}}" method="post" enctype=multipart/form-data>
+<!-- <label for="firstname">First Name:</label> -->
+  <tr> <th>Candidate First Name</th> <td>
+<input type="text" id="firstname" name="fname" placeholder="firstname">
+    </td>
+  </tr>
+    <tr>
+        <th>Candidate Last Name</th>
+      <td>
+<input type="text" id="lastname" name="lname" placeholder="lastname">
+      </td>
+        </tr>
+    <tr>
+        <th> EMAIL</th>
+      <td>
+<input type="text" id="email" name="email" placeholder="email">
+      </td>
+    </tr>
+    <tr>
+        <th>Phone number</th>
+      <td>
+<input type="text" id="tel" name="tel" placeholder="tel">
+      </td></tr>
+    <tr>
+        <th>Upload CV</th>
+      <td>
+<input type=file name=file>
+      </td>
+</tr>
+    <th></th>
+  <td>
+<button type="submit">ADD CV</button>
+  </td>
+  </tr>
+</form>
+    </table>
+
+</body>
+</html>

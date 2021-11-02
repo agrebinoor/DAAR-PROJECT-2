@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<hr> List of Candidates <hr>
+<table border="1">
+
+    <thead>
+      <tr>
+        <th>Candidate Name</th>
+        <th>Email</th>
+        <th>Phone number</th>
+        <th>CV</th>
+      </tr>
+    </thead>
+{% for hit in res['hits']['hits'] %}
+  <tr>
+    <th class="tg-0lax" rowspan="2" > {{ hit['_source']['FirstName'] }} {{hit['_source']['LastName']}} </th>
+    <th class="tg-0lax">{{ hit['_source']['email'] }}</th>
+      <th class="tg-0lax">{{ hit['_source']['number'] }}</th>
+      <th> <button type="button" onclick="window.location.href='{{ url_for( 'downloadfile' , path=hit['_source']['cvpath'] ) }}';">Download</button>
+</th>
+  </tr>
+  <tr>
+  </tr>
+</>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
