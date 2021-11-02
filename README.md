@@ -120,8 +120,8 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- LOGGING -->
-
+<!-- logging -->
+## Logging
 In this project we configured logstash with the flask application and Elastic search so we can index logs in Elastic search and view them on Kibana.
 
 ![Screenshot](logstash.PNG)
