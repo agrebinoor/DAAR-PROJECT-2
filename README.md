@@ -23,11 +23,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#logging">Logging</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -101,29 +98,34 @@ To get a local copy up and running follow these simple example steps.
 3. The first interface is the index page which contains both options:
 * ADD A NEW CV
 * SEARCH CVs
-<p align="center">
+
 ![Screenshot](index.PNG)
-</p>
+
 4. In The "ADD NEW CV" Page we have a form that we can fill to add cvs to our instance
-<p align="center">
+
 ![Screenshot](addcv.PNG)
-</p>
+
 5. In the search page we can search using words such as 'java', 'cyber', 'php' etc 
-<p align="center">
+
 ![Screenshot](search.PNG)
-</p>
+
 6. after choosing the search word and clicking search, we get a result like the following
-<p align="center">
+
 ![Screenshot](java.PNG)
-</p>
+
 7. If no CV contain the searched word we get this
-<p align="center">
+
 ![Screenshot](none.PNG)
-</p>
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- LOGGING -->
 
+In this project we configured logstash with the flask application and Elastic search so we can index logs in Elastic search and view them on Kibana.
 
+![Screenshot](logstash.PNG)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -134,8 +136,8 @@ To get a local copy up and running follow these simple example steps.
 <!-- CONTACT -->
 ## Contact
 This project was done by :
-AGREBI NOUR EL HOUDA - agrebinoor@gmail.com
-HOURI ORIANE - orianehouri@gmail.com 
+* AGREBI NOUR EL HOUDA - agrebinoor@gmail.com
+* HOURI ORIANE - orianehouri@gmail.com 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
