@@ -9,6 +9,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#contact">Contact</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -24,10 +25,20 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#logging">Logging</a></li>
-    <li><a href="#contact">Contact</a></li>
+    
   </ol>
 </details>
 
+
+
+<!-- CONTACT -->
+## Contact
+This project was done by :
+* AGREBI NOUR EL HOUDA - agrebinoor@gmail.com
+* HOURI ORIANE - orianehouri@gmail.com 
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- ABOUT THE PROJECT -->
@@ -131,16 +142,6 @@ In this project we configured logstash with the flask application and Elastic se
 
 
 
-
-
-<!-- CONTACT -->
-## Contact
-This project was done by :
-* AGREBI NOUR EL HOUDA - agrebinoor@gmail.com
-* HOURI ORIANE - orianehouri@gmail.com 
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
